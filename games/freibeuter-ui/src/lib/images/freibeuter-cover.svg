@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+    <defs>
+        <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="#9ed0e8" />
+            <stop offset="1" stop-color="#3f86b5" />
+        </linearGradient>
+        <pattern id="check" width="24" height="24" patternUnits="userSpaceOnUse">
+            <rect width="24" height="24" fill="#ffffff" />
+            <rect width="12" height="12" fill="#111111" />
+            <rect x="12" y="12" width="12" height="12" fill="#111111" />
+        </pattern>
+    </defs>
+    <rect width="600" height="400" fill="url(#check)" />
+    <rect x="12" y="12" width="576" height="376" fill="#ecdcb0" stroke="#7a5a2a" stroke-width="3" />
+    <rect x="34" y="34" width="532" height="332" fill="url(#sea)" />
+    <g stroke="#e8f4fb" stroke-width="2" stroke-dasharray="8 7" opacity="0.7">
+        <line x1="167" y1="34" x2="167" y2="366" />
+        <line x1="300" y1="34" x2="300" y2="366" />
+        <line x1="433" y1="34" x2="433" y2="366" />
+        <line x1="34" y1="145" x2="566" y2="145" />
+        <line x1="34" y1="256" x2="566" y2="256" />
+    </g>
+    <path d="M60 330 q18 -34 60 -22 q38 12 24 38 q-18 22 -56 14 q-34 -10 -28 -30 Z" fill="#c9a66b" opacity="0.8" />
+    <g transform="translate(300 250)">
+        <path d="M -70 0 L 70 0 L 48 36 L -48 36 Z" fill="#7a3e1d" stroke="#2b1708" stroke-width="4" />
+        <line x1="0" y1="0" x2="0" y2="-120" stroke="#2b1708" stroke-width="6" />
+        <path d="M 6 -116 L 66 -14 L 6 -14 Z" fill="#fdf6e3" stroke="#2b1708" stroke-width="3" />
+        <path d="M -6 -100 L -52 -14 L -6 -14 Z" fill="#fdf6e3" stroke="#2b1708" stroke-width="3" />
+        <circle cx="22" cy="-62" r="12" fill="#111111" />
+        <circle cx="18" cy="-64" r="3" fill="#fdf6e3" />
+        <circle cx="26" cy="-64" r="3" fill="#fdf6e3" />
+    </g>
+    <g transform="translate(468 120)">
+        <circle r="34" fill="#fdf6e3" stroke="#e8b923" stroke-width="8" />
+        <rect x="-18" y="-14" width="36" height="24" rx="3" fill="#a0702f" stroke="#2b1708" stroke-width="2" />
+        <path d="M -18 -14 Q 0 -30 18 -14 Z" fill="#b8843b" stroke="#2b1708" stroke-width="2" />
+    </g>
+    <text x="300" y="92" text-anchor="middle" font-family="Georgia, 'Palatino Linotype', serif" font-style="italic" font-size="68" font-weight="700" fill="#fff6dd" stroke="#3b2a14" stroke-width="3" paint-order="stroke" letter-spacing="3">Freibeuter</text>
+</svg>

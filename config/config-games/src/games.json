@@ -66,5 +66,9 @@
   {
     "gameId": "dolmengotter",
     "packageId": "dolmengotter"
+  },
+  {
+    "gameId": "freibeuter",
+    "packageId": "freibeuter"
   }
 ]
