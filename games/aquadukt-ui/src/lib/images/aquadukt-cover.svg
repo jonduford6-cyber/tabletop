@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+    <defs>
+        <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="#7cc4ec" />
+            <stop offset="1" stop-color="#e8f4d8" />
+        </linearGradient>
+        <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="#4aa3e8" />
+            <stop offset="1" stop-color="#1f6fc4" />
+        </linearGradient>
+    </defs>
+    <rect width="600" height="400" fill="url(#sky)" />
+    <path d="M0 300 Q150 250 300 285 T600 270 V400 H0 Z" fill="#7fb36a" />
+    <path d="M0 340 Q200 300 400 335 T600 320 V400 H0 Z" fill="#5f9a52" />
+    <g fill="#d9b98a" stroke="#a98456" stroke-width="3">
+        <rect x="20" y="150" width="560" height="34" rx="4" />
+        <path
+            d="M20 184 H580 V330 H520 V250 A30 30 0 0 0 460 250 V330 H400 V250 A30 30 0 0 0 340 250 V330 H280 V250 A30 30 0 0 0 220 250 V330 H160 V250 A30 30 0 0 0 100 250 V330 H20 Z"
+        />
+    </g>
+    <rect x="30" y="140" width="540" height="14" rx="6" fill="url(#water)" />
+    <g fill="none" stroke="#ffffff" stroke-opacity="0.55" stroke-width="2">
+        <path d="M60 147 q15 -5 30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0" />
+    </g>
+    <g transform="translate(60 285)">
+        <rect width="46" height="34" rx="3" fill="#c0392b" />
+        <path d="M-4 0 L23 -22 L50 0 Z" fill="#8e2a20" />
+        <rect x="16" y="14" width="14" height="20" fill="#f6e7c1" />
+    </g>
+    <g transform="translate(470 292)">
+        <rect width="40" height="30" rx="3" fill="#2f6fd0" />
+        <path d="M-4 0 L20 -20 L44 0 Z" fill="#214f96" />
+        <rect x="14" y="12" width="12" height="18" fill="#f6e7c1" />
+    </g>
+    <text
+        x="300"
+        y="84"
+        text-anchor="middle"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="64"
+        font-weight="700"
+        fill="#7a2418"
+        stroke="#fff6dd"
+        stroke-width="3"
+        paint-order="stroke"
+        letter-spacing="4"
+    >AQUÄDUKT</text>
+</svg>
