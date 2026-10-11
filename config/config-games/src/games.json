@@ -62,5 +62,9 @@
   {
     "gameId": "aquadukt",
     "packageId": "aquadukt"
+  },
+  {
+    "gameId": "dolmengotter",
+    "packageId": "dolmengotter"
   }
 ]

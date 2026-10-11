@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+    <defs>
+        <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="#2b3a67" />
+            <stop offset="1" stop-color="#8fb8a0" />
+        </linearGradient>
+    </defs>
+    <rect width="600" height="400" fill="url(#sky)" />
+    <circle cx="548" cy="140" r="28" fill="#f6efc7" opacity="0.9" />
+    <path d="M0 300 Q150 260 300 290 T600 275 V400 H0 Z" fill="#4f8a4b" />
+    <path d="M0 345 Q200 310 400 340 T600 325 V400 H0 Z" fill="#3b6f3a" />
+    <g fill="none" stroke="#ffd36b" stroke-width="3">
+        <polygon points="80,300 130,300 130,350 80,350" fill="#5aa05a" fill-opacity="0.55" />
+        <polygon
+            points="283,298 317,298 342,323 342,357 317,382 283,382 258,357 258,323"
+            fill="#5aa05a"
+            fill-opacity="0.55"
+        />
+        <polygon points="440,320 480,300 520,320 520,360 480,380 440,360" fill="#5aa05a" fill-opacity="0.55" />
+    </g>
+    <g fill="#e9b949" stroke="#8a6414" stroke-width="2">
+        <circle cx="283" cy="298" r="7" />
+        <circle cx="317" cy="298" r="7" />
+        <circle cx="342" cy="323" r="7" />
+        <circle cx="342" cy="357" r="7" />
+        <circle cx="317" cy="382" r="7" />
+        <circle cx="283" cy="382" r="7" />
+        <circle cx="258" cy="357" r="7" />
+        <circle cx="258" cy="323" r="7" />
+        <circle cx="80" cy="300" r="7" />
+        <circle cx="130" cy="300" r="7" />
+        <circle cx="130" cy="350" r="7" />
+        <circle cx="80" cy="350" r="7" />
+        <circle cx="440" cy="320" r="7" />
+        <circle cx="480" cy="300" r="7" />
+        <circle cx="520" cy="320" r="7" />
+        <circle cx="520" cy="360" r="7" />
+        <circle cx="480" cy="380" r="7" />
+        <circle cx="440" cy="360" r="7" />
+    </g>
+    <g fill="#6b6f78" stroke="#2d3037" stroke-width="3">
+        <rect x="215" y="150" width="34" height="110" rx="4" />
+        <rect x="283" y="150" width="34" height="110" rx="4" />
+        <rect x="351" y="150" width="34" height="110" rx="4" />
+        <rect x="205" y="120" width="190" height="34" rx="5" />
+    </g>
+    <text
+        x="300"
+        y="70"
+        text-anchor="middle"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="54"
+        font-weight="700"
+        fill="#fff6dd"
+        stroke="#2d3037"
+        stroke-width="3"
+        paint-order="stroke"
+        letter-spacing="2"
+    >DOLMENGÖTTER</text>
+</svg>
